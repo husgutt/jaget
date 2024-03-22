@@ -1,0 +1,55 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  --red-dark: #780000;
+  --red-light: #c1121f;
+  --beige: #fdf0d5;
+  --blue-dark: #003049;
+  --blue-light: #669bbc;
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-weight: 900;
+  font-style: normal;
+}
+
+h2 {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.hero {
+  text-align: center;
+  padding: 2em 0;
+  background-color: var(--beige);
+}
+
+.hero__title {
+  color: var(--red-light);
+}
+
+.rule {
+  padding: 1em 0;
+}
+
+.rule__title {
+  text-align: center;
+}
+
+.rule__description {
+}
