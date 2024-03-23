@@ -33,6 +33,49 @@ h2 {
   max-width: 800px;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10em;
+}
+
+.hamburger {
+  
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  background-color: hsla(196, 36%, 47%, 0.5);
+  position: fixed;
+  inset: 0 30% 0 0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20%;
+}
+
+
+.hide-side-menu {
+  display: none;
+}
+
+.menu > li {
+  margin: 0;
+  list-style: none;
+  font-size: 3em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.button-toggle-menu {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #003049;
+  top: 50%;
+  right: 0;
+}
+
 .hero {
   text-align: center;
   padding: 2em 0;
