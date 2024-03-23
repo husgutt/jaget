@@ -5,185 +5,191 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <title>Jaget 3.0</title>
 </head>
 <body>
-  <nav>
-    <ul class="menu hide-side-menu">
-      <div class="button-toggle-menu"></div>
-      <li>Seier</li>
-      <li>Spanere</li>
-      <li>Tyver</li>
-      <li>Transport</li>
-    </ul>
-  </nav>
-  <div class="hero">
-    <div class="container flex">
-        <span class="hamburger">showMenu</span>
-        <h1 class="hero__title">Regler</h1>
+  <div class="content">
+    <div class="top-nav">
+      <span class="hamburger material-symbols-outlined">menu</span>
+    </div>
+    <nav>
+      <ul class="menu hide-side-menu">
+        <div class="button-toggle-menu"></div>
+        <li>Seier</li>
+        <li>Spanere</li>
+        <li>Tyver</li>
+        <li>Transport</li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="container">
+          <h1 class="hero__title">Regler</h1>
+      </div>
+    </div>
+    <div class="container">
+      <section class="rule">
+        <h2 class="rule__title">Premisser for seier</h2>
+        <div class="rule__description">
+          <p>Hindre at tyver har flyktet i løp av fluktvinduet (14.00-15.00), og at dere har klart å fange de i
+            jaget fasen 15.00-15.30.</p>
+          <h3>Måter å forhindre tyver:</h3>
+          <h4>Fysisk ta på en tyv:</h4>
+          <p>Tyvene må da enten vente 10 min eller betale kausjon på 1 gullbare før de kan bevege seg
+            videre.
+            Sparkesykler og, penger de har på seg blir konfiskert på stedet.
+            Dere venter med tyvene og blir stående 3 min etter at de drar.</p>
+          <h4> Ta bilde av en tyv:</h4>
+          <p>Send bilde inn til chat som bevis.
+            Tyver mister tilgang til sparkesykler etter at aktiv jakt er over.
+            Det vil si at de kan bruke sparkesyklene frem til denne jakten er over (3min etter at dere så de
+            sist ca), så ingen vits å sende bilde før etter det.</p>
+            <p>Tyvene må nå kjøpe seg nye skilt for å bruke sparkesyklene igjen.</p>
+            <h4>Varmt spor</h4>
+            <p>Sporet er ved begge tilfeller nå varmt og intel kan utføres hvert 10 min i en
+              halvtime fremover (3 ganger) selv om dere ikke er i basen, fra dere er ut av aktiv jakt (altså at
+              dere ikke har sett tyvene på omtrent 3 min).
+        </div>
+      </section>
+
+      <section class="rule">
+        <h2 class="rule__title">Begrensninger og regler</h2>
+        <div class="rule__description">
+          <p>Spaneren må holde sammen, og selv om det er i orden å gå i parallell gater for å dekke mer
+            plass eller splitte opp når det oppstår en jakt, skal de alltid møtes igjen så raskt som mulig.
+            Jakt: Når dere er i en aktiv jakt, det vil si at dere ser tyvene, eller har sett de innen de siste 3
+            min, kan ikke egenskaper brukes.</p>
+        </div>
+      </section>
+
+      <section class="rule">
+        <h2 class="rule__title">Spanernes egenskaper:</h2>
+        <div class="rule__description">
+          
+        <h4>Superior intel:</h4>
+        <p>Om alle spanere er på politistasjon, kan man bruke politistasjonens overlegne
+          informasjonsnettverk. Dette fører til at man kan spørre om stillestående 360 graders film fra de
+          jagede hvert 10 minutt. Får også tilgang til pc, mat, drikke.</p>
+
+        <h4>Intel:</h4>
+        <p>Hvert 20 min kan spanerne be om stillestående 360 graders film fra tyvenes lokasjon.
+          Klipp skal ikke gjøres vanskelig. Kan ikke be om dette om tyver faktisk er spotted, og dere er i
+          en jakt situasjon.</p>
+
+        <h4>Blokade:</h4>
+        <p>Spanerne kan til en hver tid sette opp en blokade på en av rutene på kartet, men når
+          denne er satt, må den stå i 1 time før den må flyttes (sett på alarm for blokade). Blokaden varer
+          1 time før den ikke er aktiv lenger, og kan da ikke stå på samme rute i neste trekk. Men den kan
+          stå i samme rute ved en senere anledning. Blokade kan ikke settes mens ran utføres, og kan
+          altså ikke forhindre et ran når det først er i gang.</p>
+        <p>Når blokade er satt kan ikke tyver reise inn i eller gjennom denne ruten, og kan derfor heller ikke
+          utføre ran på banker i denne ruten. Tbanen er eneste fartøy som kan reise gjennom en blokade.</p>
+
+        <h4>helikopter:</h4>
+        <p>4 ganger i løp av spillet kan spanerne be om helikopter støtte. Da velger man fra
+          rutenett på kart hvilken rute helikopteret skal fly over. Man spør så tyvene om dette er der de er,
+          de svarer ja eller nei på det, og om det er tilfelle: kan ikke tyvene løpe eller ta transportmiddel
+          før de er ute av ruten, har man sparkesykkel må den trilles til man er ute av ruten, dette gjelder
+          selv i jakt.</p>
+        </div>
+      </section>
+
+      <section class="rule">
+        <h2 class="rule__title">Spanernes transportmidler</h2>
+        <div class="rule__description">
+          <p>Buss og trikk: Evig bruk.
+            T-bane: Evig bruk.
+            Bysykkel og elsparkesykkel: Evig bruk, kun VOI.</p>
+        </div>
+      </section>
+
+      <section class="rule">
+        <h2 class="rule__title">3 faser</h2>
+        <div class="rule__description">
+          <h4>Forhindre (11.00-14.00)</h4>
+          <p>I denne fasen suser tyvene rundt og prøver å rane banker, slik at de har nok penger til å senere
+            flykte til Zihuatenejo gjennom 1 av 3 fluktruter (se kart). I denne fasen er alt dere som spanere
+            kan gjøre å forhindre tyvene å rane banker gjennom å blokkere, fange, skremme og sinke de.</p>
+          <h4>Flukt (14.00-15.00)</h4>
+          <p>I dette vinduet kan tyvene stikke av om de har nok penger. Som spanere forandrer ikke så mye
+            seg, dere kan fortsatt bruke alle egenskaper og fange de.
+            <h4>Jaget (15.00-15.30)</h4>
+          <p>Dette er fasen der dere som spanere kan vinne spillet. Tyvene har ikke klart å stikke av, og på
+            grunn av at staten endelig har gitt dere midlene dere trenger til å stanse tyvene, kan de ikke
+            bruke noen av sine egenskaper eller fartøy. Knarkis Jon er i fengsel, all transport er stengt av.
+            Det eneste tyvene kan gjøre for å sikre ett slags uavgjort er å ikke bli tatt av dere. Sporet går
+            kaldt 15.30, så vær raske.</p>
+          <p>I denne perioden kan dere som spanere bruke intel hvert 5 min, men helikopter og blokader er
+            ikke lenger mulig å bruke.</p>
+        </div>
+      </section>
+
+      <section class="rule">
+        <h2 class="rule__title">Tyvers egenskaper:</h2>
+        <div class="rule__description">
+          <p>Tyver starter med 8 gullbarer, og trenger 25 for å flykte. Til sammen er det 70 gullbarer å samle
+            fra de til sammen 18 bankene.
+            I motsetning til de statlig støttete spanerne, koster alle egenskapene til tyvene gullbarer.</p>
+          
+            <h2>Knarkis Jons tjenester</h4>
+            <p>Knarkis Jon er en venn av alle som hater snuten. Han tilbyr derfor sine tjenester for en ganske
+              rimelig slump penger. Obs: Som spanere er dere også klar over Knarkis Jons lokasjoner (se
+              kart).</p>
+
+            <h4>Knarkis Jons penge safe (2 gull)</h4>
+            <p> Knarkis Jon er villig til å passe på pengene til tyvene, men
+              tar da 2 gullbarer av det de lagrer hos ham.
+              Fordelen med dette er at om de skulle bli tatt av dere spanere, vil de ikke miste disse pengene.
+              Ulempen er at tyvene heller ikke kan bruke de pengene så lenge de er hos ham, og må hente
+              de før de går for å flykte til Zihuatenejo for at de skal være med på flukten.
+              De kan hente disse pengene på alle Knarkis Jons gjemmesteder. Det koster gull hver gang de
+              legger inn i safen. Men det koster ingen ting å ta ut eller å ha det der.</p>
+
+            <h4>Knarkis Jons falske informasjon (2 gull):</h4>
+            <p> (kun 2 av) Ved kjøp av dette kan tyvene sende en
+              falsk 360 graders video når dere spanerne ber om intel.</p>
+            
+            <h4>Knarkis Jons hacke utstyr (3 gull):</h4>
+            <p>Med dette utstyret kan tyvene dra til politistasjonen, ved
+              være utenfor døren i 10 min kan de sperre spanernes mulighet for å reise med alle
+              transportmidler (inkludert sparkesykkel) i 20 min. Når de har sittet der i 10 min sender de bilde
+              av døren til felleschatten. Spanere kan kansellerer effekten av hackingen ved å komme til
+              politistasjonen.</p>
+
+            <h4>Knarkis Jons sparkesykkel (6 gull)</h4>
+            <p> Knarkis Jon tilbyr de raskeste fartøyene i byen for den
+              billige prisen av 6 gullbarer. (kun Ryde).</p>
+
+            <h4>Knarkis Jons nye skilt (3 gull)</h4>
+            <p> Om tyvene har blitt tatt bilde av, er sparkesyklene deres ubrukelige på grunn av at skiltene nå er
+              kjent. Istedetfor å betale fullpris for nye, kan dere kjøpe nye skilt av Knarkis Jon for 3 gull.</p>
+            
+            <h4>Knarkis Jons maske (1 gull)</h4>
+            <p>På Steinerskolen lærte Knarkis Jon å lage gipsmasker, disse kan brukes for å ikke måtte oppgi
+              stasjon dere går på når dere tar offentlig transport. Obs, varer bare for 1 tur ettersom Knarkis
+              Jon bruker en billig gipsblanding.</p>
+        </div>
+      </section>
+
+      <section class="rule">
+        <h2 class="rule__title">Transportmidler</h2>
+        <div class="rule__description">
+          <p>Sparkesykkel: Kjøpes hos Knarkis Jon
+            Koster 6 gull. Kan brukes så ofte og lenge de vil, inntil de blir tatt eller tatt bilde av.</p>
+          <p>Når tatt: Må kjøpe helt nye, ettersom de blir konfiskert.</p>
+          <p>Når tatt bilde av: Kan kjøpe nye skilt hos Knarkis Jon, kan ikke kjøres før dette er gjort.
+          Tyver kjører kun RYDE.</p>
+          <p>Buss/Trikk/T-bane (0): Tyver sniker på offentlig transport, så koster ingen ting.
+          Men kameraene plukker dere opp og de må sende info til felleschatten om hvilket
+          fremkomstmiddel og holdeplass de går på til felleschat, om de ikke har Knarkis Jons maske.</p>
+
+        </div>
+      </section>
+      <img src="assets/img/cop_1.png" alt="spaner" class="rule__img">
+
     </div>
   </div>
-  <div class="container">
-    <section class="rule">
-      <h2 class="rule__title">Premisser for seier</h2>
-      <div class="rule__description">
-        <p>Hindre at tyver har flyktet i løp av fluktvinduet (14.00-15.00), og at dere har klart å fange de i
-          jaget fasen 15.00-15.30.</p>
-        <h3>Måter å forhindre tyver:</h3>
-        <h4>Fysisk ta på en tyv:</h4>
-        <p>Tyvene må da enten vente 10 min eller betale kausjon på 1 gullbare før de kan bevege seg
-          videre.
-          Sparkesykler og, penger de har på seg blir konfiskert på stedet.
-          Dere venter med tyvene og blir stående 3 min etter at de drar.</p>
-        <h4> Ta bilde av en tyv:</h4>
-        <p>Send bilde inn til chat som bevis.
-          Tyver mister tilgang til sparkesykler etter at aktiv jakt er over.
-          Det vil si at de kan bruke sparkesyklene frem til denne jakten er over (3min etter at dere så de
-          sist ca), så ingen vits å sende bilde før etter det.</p>
-          <p>Tyvene må nå kjøpe seg nye skilt for å bruke sparkesyklene igjen.</p>
-          <h4>Varmt spor</h4>
-          <p>Sporet er ved begge tilfeller nå varmt og intel kan utføres hvert 10 min i en
-            halvtime fremover (3 ganger) selv om dere ikke er i basen, fra dere er ut av aktiv jakt (altså at
-            dere ikke har sett tyvene på omtrent 3 min).
-      </div>
-    </section>
 
-    <section class="rule">
-      <h2 class="rule__title">Begrensninger og regler</h2>
-      <div class="rule__description">
-        <p>Spaneren må holde sammen, og selv om det er i orden å gå i parallell gater for å dekke mer
-          plass eller splitte opp når det oppstår en jakt, skal de alltid møtes igjen så raskt som mulig.
-          Jakt: Når dere er i en aktiv jakt, det vil si at dere ser tyvene, eller har sett de innen de siste 3
-          min, kan ikke egenskaper brukes.</p>
-      </div>
-    </section>
-
-    <section class="rule">
-      <h2 class="rule__title">Spanernes egenskaper:</h2>
-      <div class="rule__description">
-        
-      <h4>Superior intel:</h4>
-      <p>Om alle spanere er på politistasjon, kan man bruke politistasjonens overlegne
-        informasjonsnettverk. Dette fører til at man kan spørre om stillestående 360 graders film fra de
-        jagede hvert 10 minutt. Får også tilgang til pc, mat, drikke.</p>
-
-      <h4>Intel:</h4>
-      <p>Hvert 20 min kan spanerne be om stillestående 360 graders film fra tyvenes lokasjon.
-        Klipp skal ikke gjøres vanskelig. Kan ikke be om dette om tyver faktisk er spotted, og dere er i
-        en jakt situasjon.</p>
-
-      <h4>Blokade:</h4>
-      <p>Spanerne kan til en hver tid sette opp en blokade på en av rutene på kartet, men når
-        denne er satt, må den stå i 1 time før den må flyttes (sett på alarm for blokade). Blokaden varer
-        1 time før den ikke er aktiv lenger, og kan da ikke stå på samme rute i neste trekk. Men den kan
-        stå i samme rute ved en senere anledning. Blokade kan ikke settes mens ran utføres, og kan
-        altså ikke forhindre et ran når det først er i gang.</p>
-      <p>Når blokade er satt kan ikke tyver reise inn i eller gjennom denne ruten, og kan derfor heller ikke
-        utføre ran på banker i denne ruten. Tbanen er eneste fartøy som kan reise gjennom en blokade.</p>
-
-      <h4>helikopter:</h4>
-      <p>4 ganger i løp av spillet kan spanerne be om helikopter støtte. Da velger man fra
-        rutenett på kart hvilken rute helikopteret skal fly over. Man spør så tyvene om dette er der de er,
-        de svarer ja eller nei på det, og om det er tilfelle: kan ikke tyvene løpe eller ta transportmiddel
-        før de er ute av ruten, har man sparkesykkel må den trilles til man er ute av ruten, dette gjelder
-        selv i jakt.</p>
-      </div>
-    </section>
-
-    <section class="rule">
-      <h2 class="rule__title">Spanernes transportmidler</h2>
-      <div class="rule__description">
-        <p>Buss og trikk: Evig bruk.
-          T-bane: Evig bruk.
-          Bysykkel og elsparkesykkel: Evig bruk, kun VOI.</p>
-      </div>
-    </section>
-
-    <section class="rule">
-      <h2 class="rule__title">3 faser</h2>
-      <div class="rule__description">
-        <h4>Forhindre (11.00-14.00)</h4>
-        <p>I denne fasen suser tyvene rundt og prøver å rane banker, slik at de har nok penger til å senere
-          flykte til Zihuatenejo gjennom 1 av 3 fluktruter (se kart). I denne fasen er alt dere som spanere
-          kan gjøre å forhindre tyvene å rane banker gjennom å blokkere, fange, skremme og sinke de.</p>
-        <h4>Flukt (14.00-15.00)</h4>
-        <p>I dette vinduet kan tyvene stikke av om de har nok penger. Som spanere forandrer ikke så mye
-          seg, dere kan fortsatt bruke alle egenskaper og fange de.
-          <h4>Jaget (15.00-15.30)</h4>
-        <p>Dette er fasen der dere som spanere kan vinne spillet. Tyvene har ikke klart å stikke av, og på
-          grunn av at staten endelig har gitt dere midlene dere trenger til å stanse tyvene, kan de ikke
-          bruke noen av sine egenskaper eller fartøy. Knarkis Jon er i fengsel, all transport er stengt av.
-          Det eneste tyvene kan gjøre for å sikre ett slags uavgjort er å ikke bli tatt av dere. Sporet går
-          kaldt 15.30, så vær raske.</p>
-        <p>I denne perioden kan dere som spanere bruke intel hvert 5 min, men helikopter og blokader er
-          ikke lenger mulig å bruke.</p>
-      </div>
-    </section>
-
-    <section class="rule">
-      <h2 class="rule__title">Tyvers egenskaper:</h2>
-      <div class="rule__description">
-        <p>Tyver starter med 8 gullbarer, og trenger 25 for å flykte. Til sammen er det 70 gullbarer å samle
-          fra de til sammen 18 bankene.
-          I motsetning til de statlig støttete spanerne, koster alle egenskapene til tyvene gullbarer.</p>
-        
-          <h2>Knarkis Jons tjenester</h4>
-          <p>Knarkis Jon er en venn av alle som hater snuten. Han tilbyr derfor sine tjenester for en ganske
-            rimelig slump penger. Obs: Som spanere er dere også klar over Knarkis Jons lokasjoner (se
-            kart).</p>
-
-          <h4>Knarkis Jons penge safe (2 gull)</h4>
-          <p> Knarkis Jon er villig til å passe på pengene til tyvene, men
-            tar da 2 gullbarer av det de lagrer hos ham.
-            Fordelen med dette er at om de skulle bli tatt av dere spanere, vil de ikke miste disse pengene.
-            Ulempen er at tyvene heller ikke kan bruke de pengene så lenge de er hos ham, og må hente
-            de før de går for å flykte til Zihuatenejo for at de skal være med på flukten.
-            De kan hente disse pengene på alle Knarkis Jons gjemmesteder. Det koster gull hver gang de
-            legger inn i safen. Men det koster ingen ting å ta ut eller å ha det der.</p>
-
-          <h4>Knarkis Jons falske informasjon (2 gull):</h4>
-          <p> (kun 2 av) Ved kjøp av dette kan tyvene sende en
-            falsk 360 graders video når dere spanerne ber om intel.</p>
-          
-          <h4>Knarkis Jons hacke utstyr (3 gull):</h4>
-          <p>Med dette utstyret kan tyvene dra til politistasjonen, ved
-            være utenfor døren i 10 min kan de sperre spanernes mulighet for å reise med alle
-            transportmidler (inkludert sparkesykkel) i 20 min. Når de har sittet der i 10 min sender de bilde
-            av døren til felleschatten. Spanere kan kansellerer effekten av hackingen ved å komme til
-            politistasjonen.</p>
-
-          <h4>Knarkis Jons sparkesykkel (6 gull)</h4>
-          <p> Knarkis Jon tilbyr de raskeste fartøyene i byen for den
-            billige prisen av 6 gullbarer. (kun Ryde).</p>
-
-          <h4>Knarkis Jons nye skilt (3 gull)</h4>
-          <p> Om tyvene har blitt tatt bilde av, er sparkesyklene deres ubrukelige på grunn av at skiltene nå er
-            kjent. Istedetfor å betale fullpris for nye, kan dere kjøpe nye skilt av Knarkis Jon for 3 gull.</p>
-          
-          <h4>Knarkis Jons maske (1 gull)</h4>
-          <p>På Steinerskolen lærte Knarkis Jon å lage gipsmasker, disse kan brukes for å ikke måtte oppgi
-            stasjon dere går på når dere tar offentlig transport. Obs, varer bare for 1 tur ettersom Knarkis
-            Jon bruker en billig gipsblanding.</p>
-      </div>
-    </section>
-
-    <section class="rule">
-      <h2 class="rule__title">Transportmidler</h2>
-      <div class="rule__description">
-        <p>Sparkesykkel: Kjøpes hos Knarkis Jon
-          Koster 6 gull. Kan brukes så ofte og lenge de vil, inntil de blir tatt eller tatt bilde av.</p>
-        <p>Når tatt: Må kjøpe helt nye, ettersom de blir konfiskert.</p>
-        <p>Når tatt bilde av: Kan kjøpe nye skilt hos Knarkis Jon, kan ikke kjøres før dette er gjort.
-        Tyver kjører kun RYDE.</p>
-        <p>Buss/Trikk/T-bane (0): Tyver sniker på offentlig transport, så koster ingen ting.
-        Men kameraene plukker dere opp og de må sende info til felleschatten om hvilket
-        fremkomstmiddel og holdeplass de går på til felleschat, om de ikke har Knarkis Jons maske.</p>
-
-      </div>
-    </section>
-    <img src="assets/img/cop_1.png" alt="spaner" class="rule__img">
-
-  </div>
 </body>
 <script src="script.js"></script>
 </html>

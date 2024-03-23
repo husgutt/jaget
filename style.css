@@ -36,22 +36,35 @@ h2 {
 .flex {
   display: flex;
   align-items: center;
-  gap: 10em;
+  justify-content: space-between;
+}
+
+.top-nav {
+  position: sticky;
+  padding: 2em 6em;
+  background-color: var(--blue-light);
+}
+
+.content {
+  position: absolute;
+  width: 100%;
 }
 
 .hamburger {
-  
+  background-color: var(--beige);
 }
 
 .menu {
   margin: 0;
   padding: 0;
-  background-color: hsla(196, 36%, 47%, 0.5);
+  background-color: var(--blue-light);
   position: fixed;
-  inset: 0 30% 0 0;
   display: flex;
   flex-direction: column;
-  padding-top: 20%;
+  padding-top: 10em;
+  height: 100%;
+  width: 50%;
+  max-width: 600px;
 }
 
 
@@ -63,8 +76,14 @@ h2 {
   margin: 0;
   list-style: none;
   font-size: 3em;
-  margin-left: 1em;
-  margin-bottom: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  background-color: var(--blue-dark);
+}
+
+.menu > li:hover,
+.menu > li:focus  {
+  opacity: 0.5;
 }
 
 .button-toggle-menu {
